@@ -16,10 +16,7 @@ var b []byte
 var digits = []string{"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"}
 
 func main() {
-	var (
-		sum1 int
-		sum2 int
-	)
+	var sum1, sum2 int
 
 	s := bufio.NewScanner(bytes.NewReader(b))
 	for s.Scan() {
